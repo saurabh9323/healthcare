@@ -1,0 +1,33 @@
+<%- include ("header") -%> 
+<section class="form">
+    <main class="form-signin">
+        <form action="/login" method="post" class="form1">
+          <img class="mb-4" src="images/download.png" alt="" width="72" height="57">
+          <h1 class="h3 mb-3 fw-normal">Please login</h1>
+      
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">login</button>
+        <br>
+          <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!"
+          role="button">
+          <i class="fab fa-google me-2"></i>Continue with Google
+        </a><br>
+        <a class="btn btn-primary btn-lg btn-block" style="background-color: #55acee" href="#!"
+          role="button">
+          <i class="fab fa-facebook-f me-2"></i>Continue with Facebook</a>
+          <br>
+          <p class="mt-5 mb-3 text-muted">&copy; 2022–2023</p>
+        </form>
+      </main>
+    </section>
+
+
+
+<%- include ("footer") -%> 
