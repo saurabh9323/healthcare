@@ -5,6 +5,7 @@ const ejs = require("ejs");
 const mongoose = require("mongoose");
 const session = require('express-session');
 const passport = require("passport");
+const expressLayouts = require("express-ejs-layouts")
 const passportLocalMongoose = require("passport-local-mongoose");
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const findOrCreate = require('mongoose-findorcreate');
@@ -13,6 +14,8 @@ const app = express();
 
 app.use(express.static("public"));
 app.set('view engine', 'ejs');
+app.set('layout','layouts/layout')
+app.use(expressLayouts)
 app.use(bodyParser.urlencoded({
   extended: true
 }));

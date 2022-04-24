@@ -33,27 +33,10 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-
 <body>
-    
-    <!-- header section starts  -->
-    
-    <header class="header">
-    
-        <a href="#" class="logo"> <i class="fas fa-heartbeat"></i> Healthcare. </a>
-    
-        <nav class="navbar">
-            <a href="/">home</a>
-            <a href="/services">services</a>
-            <a href="/about">about</a>
-            <a href="/doctors">doctors</a>
-            <a href="/book">book</a>
-            <a href="/review">review</a>
-            <a href="/blogs">Blogs</a>
-            <a href="/login">login</a>
-            <a href="/register">register</a>
-        </nav>
-        <div id="menu-btn" class="fas fa-bars"></div>
+  <%- include('../partials/header.ejs') %>
+  <%- body %>
+  <%- include('../partials/footer.ejs') %>
+</body>
+</html>
 
-    </header>    
-    <!-- header section ends -->
