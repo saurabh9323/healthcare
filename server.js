@@ -116,11 +116,33 @@ app.get("/login",(req,res)=>{
 app.get("/register",(req,res)=>{
     res.render("register");
 })
+app.get("/first-aid",(req,res)=>{
+  res.render("first-aid");
+})
+app.get("/burn",(req,res)=>{
+  res.render("first-aid/burn");
+})
+app.get("/bleeding",(req,res)=>{
+  res.render("first-aid/bleeding");
+})
+app.get("/choking",(req,res)=>{
+  res.render("first-aid/choking");
+})
+app.get("/cpr",(req,res)=>{
+  res.render("first-aid/cpr");
+})
+app.get("/eye",(req,res)=>{
+  res.render("first-aid/eye");
+})
+app.get("/fracture",(req,res)=>{
+  res.render("first-aid/fracture");
+})
 
 app.get("/logout", function(req, res){
     req.logout();
     res.redirect("/");
   });
+
   
   app.post("/register", function(req, res){
   

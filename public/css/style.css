@@ -596,5 +596,72 @@ section:nth-child(even){
     font-size: 1.5rem;
     flex-direction: row;
 }
+/* .ul-list{
+ font-size: 1.5rem;
+} */
 
+.list-first{
+    height: 80px;
+    width: 100px;
+    margin-top:100px ;
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    
+}
+.p-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    /* margin-left: 200px; */
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.ul-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+
+}
+.bleeding {
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    font-size: 2rem;
+}
+.choking{
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    font-size: 2rem;
+}
+.burn{
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    font-size: 2rem;
+}
+.cpr {
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    font-size: 2rem;
+}
+.fracture{
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    font-size: 2rem;
+}
+.eye{
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    font-size: 2rem;  
+}
 
