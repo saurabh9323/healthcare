@@ -626,6 +626,7 @@ section:nth-child(even){
     align-items: center;
     text-align: center;
     margin-left: 100px;
+    color: greenyellow;
 
 }
 .bleeding {
@@ -663,5 +664,7 @@ section:nth-child(even){
     width: 100%;
     padding: 80px;
     font-size: 2rem;  
+} .ul-list a{
+    color: #16a085;
 }
 
